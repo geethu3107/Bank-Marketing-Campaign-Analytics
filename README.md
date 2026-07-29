@@ -23,9 +23,6 @@ To analyze customer and campaign data to understand:
 
 - Microsoft Excel
   - Data Cleaning
-  - Pivot Tables
-  - XLOOKUP
-  - Data Validation
   - Conditional Formatting
 
 - Power BI
@@ -36,7 +33,6 @@ To analyze customer and campaign data to understand:
   - Slicers
   - Drill-through Analysis
 
----
 
 ## Dataset
 

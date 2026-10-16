@@ -86,8 +86,8 @@ Bank-Marketing-Campaign-Analytics/
 ├── powerbi/
 │   └── Bank_Marketing_Campaign_Dashboard.pbix
 ├── screenshots/
-│   ├── Dashboard_Page_1.png
-│   └── Dashboard_Page_2.png
+│   ├── Bank_campaign_analytics_dashboard.png
+│   └── Dashboard_Page2.png
 └── README.md
 ```
 

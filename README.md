@@ -1,116 +1,118 @@
-# Bank Marketing Campaign Analytics 📊
+# 📊 Bank Marketing Campaign Analytics | Excel & Power BI
 
 ## Project Overview
 
-This project analyzes a bank marketing campaign dataset to identify customer behavior patterns, campaign performance, and factors influencing term deposit subscriptions.
+An interactive business intelligence project that analyzes bank marketing campaign data to understand customer behavior, evaluate term deposit subscription performance, and identify customer segments with different subscription patterns.
 
-The project involves data cleaning, transformation, exploratory analysis, and dashboard development using Microsoft Excel and Power BI.
+The project follows an end-to-end analytics workflow, from data cleaning and preparation in Microsoft Excel to interactive dashboard development in Power BI.
 
----
+## 🎯 Project Objectives
 
-## Objective
+- Analyze customer demographics and term deposit subscription patterns.
+- Evaluate campaign performance across different customer segments.
+- Compare subscription rates by job, contact method, marital status, education, age group, and loan status.
+- Build an interactive dashboard to support data-driven business decisions.
+- Enable detailed customer-level exploration through drill-through analysis.
 
-To analyze customer and campaign data to understand:
+## 🛠️ Tools & Technologies
 
-- Customer demographics and subscription trends
-- Factors influencing term deposit acceptance
-- Campaign effectiveness
-- Customer segmentation insights
+- **Microsoft Excel:** Data cleaning, validation, and conditional formatting.
+- **Power BI:** Dashboard development, data modeling, and interactive reporting.
+- **DAX:** KPI calculations and subscription rate measures.
+- **Power Query:** Data transformation and preparation.
+- **Data Visualization:** KPI cards, bar charts, pie charts, and comparison visuals.
+- **Interactive Features:** Slicers, cross-filtering, and drill-through navigation.
 
----
+## 📁 Dataset
 
-## Tools & Technologies
+The project uses the Bank Marketing dataset, containing customer demographic information and marketing campaign attributes.
 
-- Microsoft Excel
-  - Data Cleaning
-  - Conditional Formatting
+Key fields include:
+- Customer job, age, marital status, and education
+- Contact method and campaign-related information
+- Previous campaign outcomes
+- Housing loan and personal loan status
+- Term deposit subscription outcome
 
-- Power BI
-  - Data Modeling
-  - DAX Measures
-  - KPI Cards
-  - Interactive Visualizations
-  - Slicers
-  - Drill-through Analysis
+## 🧹 Data Cleaning & Preparation
 
+The data preparation workflow included:
+- Inspecting the source dataset for missing and inconsistent values.
+- Cleaning and transforming data in Excel.
+- Preparing structured data for Power BI analysis.
+- Organizing fields and measures for meaningful reporting.
 
-## Dataset
+## 📈 Dashboard Highlights
 
-**Bank Marketing Dataset**
+The Power BI report contains two pages designed for interactive campaign analysis.
 
-The dataset contains customer information and marketing campaign details used to analyze subscription patterns.
+### Page 1 — Campaign Performance & Customer Insights
 
-Key attributes include:
+- **KPI Cards:** Total Customers, Contacted Customers, Successful Subscriptions, and Subscription Rate.
+- **Job Analysis:** Compares subscription rates across customer occupations.
+- **Contact Method Analysis:** Examines subscription performance by contact channel.
+- **Loan Status Analysis:** Compares subscription outcomes across housing loan categories.
+- **Customer Intelligence:** Visualizes customer age-group distribution.
+- **Marital Status Analysis:** Compares subscription rates among married, single, and divorced customers.
+- **Education Analysis:** Explores customer distribution and subscription outcomes by education level.
+- **Interactive Filtering:** Enables exploration by job, education, and age group.
 
-- Customer demographics
-- Contact details
-- Campaign information
-- Previous marketing outcomes
-- Term deposit subscription status
+### Page 2 — Customer-Level Drill-Through
 
----
+- Displays detailed customer records for a selected segment.
+- Applies drill-through filters to support focused investigation.
+- Provides navigation back to the main dashboard.
+- Helps connect high-level campaign metrics with underlying customer data.
 
-## Data Cleaning & Preparation
+## 🔍 Key Analytical Focus Areas
 
-Performed data preprocessing steps:
+The dashboard enables investigation of:
+- Customer segments with comparatively higher subscription rates.
+- Differences in campaign outcomes across contact methods.
+- Relationships between loan status and term deposit acceptance.
+- Subscription patterns across demographic and occupational groups.
+- Customer-level records behind selected analytical segments.
 
-- Identified missing and inconsistent values
-- Checked data quality issues
-- Cleaned and transformed raw data
-- Prepared data for visualization and analysis
+These views help explore campaign performance and generate questions for further business investigation.
 
----
+## 📂 Project Structure
 
-## Dashboard Features
-
-The Power BI dashboard includes:
-
-- Customer subscription analysis
-- Campaign performance overview
-- Customer segmentation
-- Interactive filters and slicers
-- Drill-through pages
-- KPI-based reporting
-
----
-
-## Key Insights
-
-- Analyzed customer groups with higher subscription rates
-- Identified campaign trends affecting customer decisions
-- Compared customer characteristics and deposit subscription behavior
-
----
-
-## Project Files
-
-The repository contains the following files:
-
-Bank-Marketing-Campaign-Analytics
-
+```text
+Bank-Marketing-Campaign-Analytics/
+│
 ├── bank.csv
 ├── excel/
 │   └── Cleaned_Bank_Marketing_Data.xlsx
 ├── powerbi/
 │   └── Bank_Marketing_Campaign_Dashboard.pbix
-└── screenshots/
-    ├── Dashboard_Page_1.png
-    └── Dashboard_Page_2.png
+├── screenshots/
+│   ├── Dashboard_Page_1.png
+│   └── Dashboard_Page_2.png
+└── README.md
+```
 
+## 🖼️ Dashboard Preview
 
-## Dashboard Preview
+### Page 1 — Campaign Performance & Customer Insights
 
-The dashboard provides interactive analysis of customer segments, campaign performance, and subscription trends.
+![Bank_campaign_analytics_dashboard](https://github.com/geethu3107/Bank-Marketing-Campaign-Analytics/raw/main/screenshots/Dashboard_Page_1.png)
 
-### Dashboard Page 1
+### Page 2 — Customer-Level Drill-Through
 
-![Dashboard Page 1](screenshots/Dashboard_Page_1.png)
+![Dashboard_page2](https://github.com/geethu3107/Bank-Marketing-Campaign-Analytics/raw/main/screenshots/Dashboard_Page_2.png)
 
-### Dashboard Page 2
+## 💡 Skills Demonstrated
 
-![Dashboard Page 2](screenshots/Dashboard_Page_2.png)
+- Data cleaning and preparation
+- Exploratory data analysis
+- KPI development and DAX calculations
+- Interactive dashboard design
+- Customer segmentation
+- Business-focused data visualization
+- Drill-through analysis and report navigation
+- Translating structured data into actionable analytical insights
 
+## ✅ Conclusion
 
-## Conclusion
+This project demonstrates the application of Excel and Power BI to transform raw bank marketing data into an interactive business intelligence report. By combining KPI monitoring, customer segmentation, campaign comparisons, and customer-level drill-through analysis, the dashboard provides a structured way to explore term deposit subscription behavior and campaign effectiveness.
 
-This project demonstrates the complete analytics workflow — from raw data cleaning and transformation to dashboard development and business insight generation using Excel and Power BI.
